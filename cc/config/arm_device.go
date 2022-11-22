@@ -155,7 +155,7 @@ var (
 		},
 		"kryo385": []string{
 			// Use cortex-a55 because kryo385 is not supported in GCC/clang.
-			"-mcpu=cortex-a55+nodotprod",
+			"-mcpu=cortex-a55",
 			"-mfpu=neon-fp-armv8",
 			// Fake an ARM compiler flag as these processors support LPAE which GCC/clang
 			// don't advertise.
